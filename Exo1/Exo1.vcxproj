@@ -141,10 +141,12 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
     <ClCompile Include="my_print_alpha.c" />
+    <ClCompile Include="my_print_revalpha.c" />
     <ClCompile Include="my_put_char.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="my_print_alpha.h" />
+    <ClInclude Include="my_print_revalpha.h" />
     <ClInclude Include="my_put_char.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
